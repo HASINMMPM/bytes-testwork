@@ -6,6 +6,10 @@ const urlSchema = new mongoose.Schema(
       type: String,
       require: true,
     },
+    originalUrl: {
+      type: String,
+      require: true,
+    },
     visit: {
       type: Number,
     },
